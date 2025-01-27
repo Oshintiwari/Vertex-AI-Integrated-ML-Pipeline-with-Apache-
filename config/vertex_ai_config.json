@@ -1,0 +1,9 @@
+{
+    "project_id": "your-gcp-project-id",
+    "region": "us-central1",
+    "training_job_name": "vertex-ai-training-job",
+    "training_script": "train.py",
+    "container_uri": "gcr.io/cloud-aiplatform/training-container:latest",
+    "training_args": ["--epochs", "10", "--batch_size", "32"],
+    "deployment_machine_type": "n1-standard-4"
+}
