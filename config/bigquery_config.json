@@ -1,0 +1,4 @@
+{
+    "query": "SELECT * FROM `your_project.dataset.input_table`",
+    "output_table": "your_project.dataset.output_table"
+}
